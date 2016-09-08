@@ -1,0 +1,8 @@
+name: Bamboo_RNAseq_datamining
+account: reuscher
+server: shinyapps.io
+bundleId: 479019
+url: https://reuscher.shinyapps.io/Bamboo_RNAseq_datamining/
+when: 1465808968.57097
+asMultiple: FALSE
+asStatic: FALSE
