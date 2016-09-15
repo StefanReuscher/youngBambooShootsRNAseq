@@ -1,5 +1,7 @@
 # Transcriptome analysis of young bamboo shoots
-![bambooKamon](https://github.com/StefanReuscher/youngBambooShootsRNAseq/blob/master/www/take_kamon_alu.png)
+<p align="center">
+<img align="center" src="https://github.com/StefanReuscher/youngBambooShootsRNAseq/blob/master/www/take_kamon_alu.png" width="500">
+</p>
 
 This repository contains the source code and most data to reproduce the analyses presented in:  
 *Gamuyao et al. 2016, Running title: Bamboo hormones and transcriptomics.*
