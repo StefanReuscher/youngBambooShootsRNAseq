@@ -1,9 +1,25 @@
 ####load packages####
-library(shiny)
-library(ggplot2)
-library(reshape2)
-library(grid)
-require(edgeR)
+if(!require(shiny)){
+  install.packages("shiny")
+  library(shiny)
+}
+if(!require(ggplot2)){
+  install.packages("ggplot2")
+  library(ggplot2)
+}
+if(!require(reshape2)){
+  install.packages("reshape2")
+  library(reshape2)
+}
+if(!require(grid)){
+  install.packages("grid")
+  library(grid)
+}
+if(!require(edgeR)){
+  install.packages("edgeR")
+  library(edgeR)
+}
+
 
 
 shinyUI(fluidPage(
