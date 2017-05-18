@@ -29,8 +29,9 @@ shinyUI(fluidPage(
   titlePanel("Visualize bamboo RNAseq data from different tissues of the young shoot apex."),
   
   sidebarPanel(width = 3,
-    textInput("password", label = "What is our favourite gene ?",value = ""),
+    textInput("password", label = "What is our favourite gene ?",value = "SK1"),
     tags$i("Ask for our favourite gene at reuscher@agr.nagoya-u.ac.jp to gain access."),
+    tags$i("Password is obsolete since the data is published."),
     tags$hr(),
     radioButtons("typeOfAnalysis", "What kind of analyses should be performed ?",
                  choices = list("single gene-based" = "sg",
